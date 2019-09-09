@@ -1,7 +1,5 @@
 ## Portfolio
 
----
-
 <!--### Category Name 1 -->
 
 [Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
