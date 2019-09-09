@@ -4,7 +4,7 @@
 
 ### Category Name 1 
 
-[Project 1 Title](/sample_page)
+[Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
