@@ -5,7 +5,7 @@
 ### Category Name 1 
 
 [Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/CMC201 2018-19 Lab Usage by Week0724.pdf?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
