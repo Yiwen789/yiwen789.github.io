@@ -7,14 +7,24 @@ Uniform Crime Reporting(UCR) compiles official data on crime in the United State
 
 ### 1. Data Preparation
 
-The original dataset is in the following Excel format. 
+The raw data is in the following Excel format. The data is currently not in an ideal form because: 1. The data contains headers and footnotes. 2.The dataset is in a wide-format, whereas all measurements of one type of Offense Charged is in one row; however, we want to only see one measurement of an Offense Charged in one row in long-form. 
+
  <insert excel raw data image>
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+Let's see connect the raw data to Tableau and see how Tableau would interpret it. After the data is connected, on the left bar under **Sheets** check **Cleaned with Data Interpreter.**
+
+<insert data interpreter gif>
+
+Under the box of **Cleaned with Data Interpreter.**, click the blue underlined text **Review the results** and Tableau will prompt you to an Excel workbook that indicates how the data is interpreted in Tableau. When the Excel sheet pops up, go to the second tab of the workbook to review results. 
+
+As we can see from the information in the second tab, Tableau is smart enough to ignore the headnotes and the footnotes. It has also identified the headers and the data rows correctly. 
+
+<insert Tableau generated Excel screenshot>
+ 
+Since we don't want the total value (Row 8) to be included in the data, we will exclude this value. We also noticed from the footnotes that "Violent crimes are offenses of murder, forcible rape, robbery, and aggravated assault." and "Property crimes are offenses of burglary, larceny-theft, motor vehicle theft, and arson." This shows us that 'Violent Crime'(Row 17) and 'Property Crime'(Row 18) are categories of Offense Charged, rather than an actual offense. Let's change the above issues altogether. 
+
+Review again until there is no mistake and move on to the next step. 
+
 
 ### 2. Assess assumptions on which statistical inference will be based
 
