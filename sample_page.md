@@ -42,42 +42,36 @@ Before we get started, let's first delete every column of percentage change beca
 Select only the columns containing numerical data and and the top right drop down menu, select **Pivot**.
 
 <insert pivoting gif>
+<img src="images/Pitvoting.gif?raw=true"/>
+
 
 Notice the **Pivot Field Names** column contains information of 'Gender', 'Age Group', and 'Year'. We can break this down and create separate columns by double-clicking on this column, and in the drop-down menu go to **Custom Split**.
 
 <insert custom split>
+<img src="images/Custom Split.png?raw=true"/>
+
 
 For example, we can use space as a separator and split off the first column, thus creating a 'Gender' column. 
 
 <insert new column>
+<img src="images/Split New Column.png?raw=true"/>
  
 Rename columns as necessary. The final version of the dataset looks like the following. 
 
 <insert full columns graph> 
+<img src="images/Full Columns.png?raw=true"/>
 
 ### 2. Data Visualization
 
 We created the following visuals as some examples to test the cleaned up data. We made Offense Charged a sub-filter as 'Crime Type'. The first visual is a side-by-side year comparison barchart, color-coded by gender. 
 
 <insert first visual>
+<img src="images/example viz 1.png?raw=true"/>
+
  
 The second visual is a side-by-side Offense Charged Comparison, color-coded by Offense Charged. 
 
 <insert first visual>
+<img src="images/example viz 2.png?raw=true"/>
 
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
-
-### 3. Support the selection of appropriate statistical tools and techniques
-
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
-### 4. Provide a basis for further data collection through surveys or experiments
-
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
