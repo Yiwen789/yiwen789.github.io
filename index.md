@@ -6,7 +6,7 @@
 <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/>
 
 ---
-[Project 2 Title](sample_page.md)
+[Data Cleaning with Tableau](sample_page.md)
 <img src="images/example viz 1.png?raw=true"/>
 
 ---
