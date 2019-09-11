@@ -17,21 +17,21 @@ We can fix the first issues above with the Tableau **Data Interpreter.**
 Let's see connect the raw data to Tableau and see how Tableau would interpret it. After the data is connected, on the left bar under **Sheets** check **Cleaned with Data Interpreter.**
 
 <insert data interpreter gif>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/data interpreter.gif?raw=true"/>
 
 Under the box of **Cleaned with Data Interpreter.**, click the blue underlined text **Review the results** and Tableau will prompt you to an Excel workbook that indicates how the data is interpreted in Tableau. When the Excel sheet pops up, go to the second tab of the workbook to review results. 
 
 As we can see from the information in the second tab, Tableau is smart enough to ignore the headnotes and the footnotes. It has also identified the headers and the data rows correctly. 
 
 <insert Tableau generated Excel screenshot>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Tableau Generated Excel.png?raw=true"/>
  
 Since we don't want the total value (Row 8) to be included in the data, we will exclude this value. 
 
 We also noticed from the footnotes that "Violent crimes are offenses of murder, forcible rape, robbery, and aggravated assault." and "Property crimes are offenses of burglary, larceny-theft, motor vehicle theft, and arson." This shows us that 'Violent Crime'(Row 17) and 'Property Crime'(Row 18) are categories of Offense Charged, rather than an actual offense. Let's change it by creating a separate column 'Crime Type' in the raw data. 
 
 <insert clean Excel sheet data>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/Cleaned Excel Sheet.png?raw=true"/>
 
 Review data in the tableau **Data Interpreter** again until there is no mistake and move on to the next step. 
 
