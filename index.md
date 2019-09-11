@@ -6,7 +6,7 @@
 <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Project 2 Title](sample_page.md)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
