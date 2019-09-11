@@ -11,6 +11,9 @@ The raw data is in the following Excel format. The data is currently not in an i
 
  <insert excel raw data image>
 
+## A. Tableau Data Interpreter 
+We can fix the first issues above with the Tableau **Data Interpreter.**
+
 Let's see connect the raw data to Tableau and see how Tableau would interpret it. After the data is connected, on the left bar under **Sheets** check **Cleaned with Data Interpreter.**
 
 <insert data interpreter gif>
@@ -21,12 +24,22 @@ As we can see from the information in the second tab, Tableau is smart enough to
 
 <insert Tableau generated Excel screenshot>
  
-Since we don't want the total value (Row 8) to be included in the data, we will exclude this value. We also noticed from the footnotes that "Violent crimes are offenses of murder, forcible rape, robbery, and aggravated assault." and "Property crimes are offenses of burglary, larceny-theft, motor vehicle theft, and arson." This shows us that 'Violent Crime'(Row 17) and 'Property Crime'(Row 18) are categories of Offense Charged, rather than an actual offense. Let's change the above issues altogether. 
+Since we don't want the total value (Row 8) to be included in the data, we will exclude this value. 
 
-Review again until there is no mistake and move on to the next step. 
+We also noticed from the footnotes that "Violent crimes are offenses of murder, forcible rape, robbery, and aggravated assault." and "Property crimes are offenses of burglary, larceny-theft, motor vehicle theft, and arson." This shows us that 'Violent Crime'(Row 17) and 'Property Crime'(Row 18) are categories of Offense Charged, rather than an actual offense. Let's change it by creating a separate column 'Crime Type' in the raw data. 
+
+Let's also remove the 'Percent Change' column because we can derive them in Tableau. 
+
+<insert clean Excel sheet data>
+
+Review data in the tableau **Data Interpreter** again until there is no mistake and move on to the next step. 
+
+## B. Data Pivoting: Changing Wide-format Data to Long-format
+
 
 
 ### 2. Assess assumptions on which statistical inference will be based
+
 
 ```javascript
 if (isAwesome){
