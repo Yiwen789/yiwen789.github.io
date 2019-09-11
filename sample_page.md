@@ -5,14 +5,14 @@ This project is a DataSquad teaching and research support project for Carleton p
 <br/><br/>
 Uniform Crime Reporting(UCR) compiles official data on crime in the United States, published by the Federal Bureau of Investigation (FBI). (Wikipedia)
 <br/><br/>
+
 ### 1. Data Preparation
-<br/><br/>
 The raw data is in the following Excel format. The data is currently not in an ideal form because: 1. Not all rows in the Excel sheet are data inputs. 2.The dataset is in a wide-format, whereas all measurements of one type of Offense Charged is in one row; however, we want to only see one measurement of an Offense Charged in one row in long-form. 
 <br/><br/>
 <img src="images/Excel Raw Data.png?raw=true"/>
 <br/><br/>
+
 #### A. Tableau Data Interpreter 
-<br/><br/>
 We can fix the first issues above with the Tableau **Data Interpreter.**
 <br/><br/>
 Let's see connect the raw data to Tableau and see how Tableau would interpret it. After the data is connected, on the left bar under **Sheets** check **Cleaned with Data Interpreter.**
@@ -36,8 +36,8 @@ We also noticed from the footnotes that "Violent crimes are offenses of murder, 
 <br/><br/>
 Review data in the tableau **Data Interpreter** again until there is no mistake and move on to the next step. 
 <br/><br/>
+ 
 #### B. Data Pivoting: Changing Wide-format Data to Long-format
-<br/><br/>
 Before we get started, let's first delete every column of percentage change because these columns are derivable from the rest of the data. To do this, double click on the column head and choose **Hide**. 
 <br/><br/>
 Select only the columns containing numerical data and and the top right drop down menu, select **Pivot**.
@@ -62,8 +62,8 @@ Rename columns as necessary. The final version of the dataset looks like the fol
 <insert full columns graph> 
 <img src="images/Full Columns.png?raw=true"/>
 <br/><br/>
+ 
 ### 2. Data Visualization
-<br/><br/>
 We created the following visuals as some examples to test the cleaned up data. We made Offense Charged a sub-filter as 'Crime Type'. The first visual is a side-by-side year comparison barchart, color-coded by gender. 
 <br/><br/>
 <insert first visual>
