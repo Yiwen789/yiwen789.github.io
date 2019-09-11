@@ -7,7 +7,7 @@
 
 ---
 [Project 2 Title](sample_page.md)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/example viz 1.png?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
