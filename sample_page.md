@@ -12,7 +12,7 @@ The raw data is in the following Excel format. The data is currently not in an i
 <img src="images/Excel Raw Data.png?raw=true"/>
 <br/><br/>
 
-&nbsp;&nbsp;#### A. Tableau Data Interpreter 
+#### &nbsp;&nbsp;&nbsp;&nbsp;A. Tableau Data Interpreter 
 We can fix the first issues above with the Tableau **Data Interpreter.**
 <br/><br/>
 Let's see connect the raw data to Tableau and see how Tableau would interpret it. After the data is connected, on the left bar under **Sheets** check **Cleaned with Data Interpreter.**
@@ -37,7 +37,7 @@ We also noticed from the footnotes that "Violent crimes are offenses of murder, 
 Review data in the tableau **Data Interpreter** again until there is no mistake and move on to the next step. 
 <br/><br/>
  
-&nbsp;&nbsp;#### B. Data Pivoting: Changing Wide-format Data to Long-format
+#### &nbsp;&nbsp;&nbsp;&nbsp;B. Data Pivoting: Changing Wide-format Data to Long-format
 Before we get started, let's first delete every column of percentage change because these columns are derivable from the rest of the data. To do this, double click on the column head and choose **Hide**. 
 <br/><br/>
 Select only the columns containing numerical data and and the top right drop down menu, select **Pivot**.
