@@ -35,7 +35,6 @@ The following is the head of the dataset, the columns are not completely include
 |3	|2014-09-19|MMM|3M Company|Industrials|Diversified Industrials|128.5899|8106200|3.945000e+09|...|
 |4	|2014-09-26|MMM|3M Company|Industrials|Diversified Industrials|124.8468|3557700|3.945000e+09|...|
 
-<br/><br/>
 Sometimes, numeric data in Excel might exist as strings instead of floats or integers. Let's first make sure the data types of all columns are appropriate. 
 
 ```
@@ -51,14 +50,13 @@ metrics = df1.loc[:,'Close Price, $':]
 
 The idea is to define a helper function that takes in a single column and return a new calculation, then create a second function that takes in a dataframe and apply the helper function to each column of the entire dataframe.
 
-<p align="center">
-  <img src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/>
-</p>
+
+<center><img src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/></center>
 
 To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
-<p align="center">
-  <img align="left" src="images/python_excel_graphs/shift .png?raw=true"/>
-</p>
+
+<center><img align="left" src="images/python_excel_graphs/shift .png?raw=true"/></center>
+
 
 ```
 def expand_single_column_percent_change(col):
@@ -85,9 +83,9 @@ Same procedures can be applied to 3 Period/5 Period Compound Growth Rate and 3 P
 
 Compound growth rate is the growth rate from the initial period value to the ending period value, assuming the growth is compounding over time. Its calculation: 
 
-<p align="center">
-  <img align="left" src="images/python_excel_graphs/cagr.png?raw=true"/>
-</p>
+
+<center><img align="left" src="images/python_excel_graphs/cagr.png?raw=true"/></center>
+
 (https://www.gartner.com/it-glossary/cagr-compound-annual-growth-rate)
 <br/><br/>
 The new dataframe for Compound Growth Rate can be calculated through the followng way, using the 5 period Coumpound Growth as an example:
