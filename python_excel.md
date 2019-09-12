@@ -55,7 +55,7 @@ The idea is to define a helper function that takes in a single column and return
 
 To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
 
-<img align = 'center' src="images/python_excel_graphs/shift .png?raw=true"/>
+<img src="images/python_excel_graphs/shift .png?raw=true"/>
 
 
 ```
@@ -84,7 +84,7 @@ Same procedures can be applied to 3 Period/5 Period Compound Growth Rate and 3 P
 Compound growth rate is the growth rate from the initial period value to the ending period value, assuming the growth is compounding over time. Its calculation: 
 
 
-<center><img src="images/python_excel_graphs/cagr.png?raw=true"/></center>
+<img src="images/python_excel_graphs/cagr.png?raw=true"/>
 
 (https://www.gartner.com/it-glossary/cagr-compound-annual-growth-rate)
 <br/><br/>
