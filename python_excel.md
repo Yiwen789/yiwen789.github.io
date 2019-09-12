@@ -31,11 +31,11 @@ The following is the head of the dataset, the columns are not completely include
 ```
 <br/><br/>
 <br/><br/>
-|   |Date	|Symbol	|Name	|Sector	|Industry	|Close Price, $	|Volume	Inventory, $	|Long-Term Debt, $	|Net Receivables, $	|Property Plant Equipment, $	|Short-Term Debt, $	|Total Assets, $	|Total Current Assets, $	|Total Current Liabilities, $	|Total Liabilities, $	|Total Equity, $	|Shares Million|
+   |Date	|Symbol	|Name	|Sector	|Industry	|Close Price, $	|Volume	Inventory, $	|Long-Term Debt, $	|Net Receivables, $	|Property Plant Equipment, $	|Short-Term Debt, $	|Total Assets, $	|Total Current Assets, $	|Total Current Liabilities, $	|Total Liabilities, $	|Total Equity, $	|Shares Million
 
-|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------
 
-|0	|2014-08-29	|MMM	|3M |Company	|Industrials	|Diversified Industrials	|126.2318	|1537800	|3.945000e+09	|5225000000	|4711000000	|8499000000	|55000000	|32776000000	|12681000000	|7705000000	|16570000000	|16173000000	|658.0|
+0	|2014-08-29	|MMM	|3M |Company	|Industrials	|Diversified Industrials	|126.2318	|1537800	|3.945000e+09	|5225000000	|4711000000	|8499000000	|55000000	|32776000000	|12681000000	|7705000000	|16570000000	|16173000000	|658.0
 
 ```
 
