@@ -36,10 +36,10 @@ The following is the head of the dataset, the columns are not completely include
 |0	|2014-08-29|MMM|3M Company|Industrials|Diversified Industrials|126.2318|1537800|3.945000e+09|...|
 |1	|2014-09-05|MMM|3M Company|Industrials|Diversified Industrials|126.4072|1989100|3.945000e+09|...|
 |2	|2014-09-12|MMM|3M Company|Industrials|Diversified Industrials|126.1793|2135400|3.945000e+09|...|
-|3	|2014-09-19|MMM	3M Company|Industrials|Diversified Industrials|128.5899|8106200|3.945000e+09|...|
-|4	|2014-09-26|MMM	3M Company|Industrials|Diversified Industrials|124.8468|3557700|3.945000e+09|...|
+|3	|2014-09-19|MMM|3M Company|Industrials|Diversified Industrials|128.5899|8106200|3.945000e+09|...|
+|4	|2014-09-26|MMM|3M Company|Industrials|Diversified Industrials|124.8468|3557700|3.945000e+09|...|
 
-Sometimes, numeric data in Excel might exist as strings and floats. Let's first make sure the data types of all columns are appropriate. 
+Sometimes, numeric data in Excel might exist as strings instead of floats or integers. Let's first make sure the data types of all columns are appropriate. 
 
 ```
 df.info()
@@ -54,11 +54,15 @@ metrics = df1.loc[:,'Close Price, $':]
 
 The idea is to define a helper function that takes in a single column and return a new calculation, then create a second function that takes in a dataframe and apply the helper function to each column of the entire dataframe.
 
-<Maybe insert a graph?>
+<insert the graph of dataframe apply>
 
-To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. 
+
+To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
 
 <Insert a graph that explains .shift()>
+(Geeks for Geeks: Python | Pandas dataframe.shift())
+
+
 
 ```
 def expand_single_column_percent_change(col):
@@ -86,6 +90,8 @@ Same procedures can be applied to 3 Period/5 Period Compound Growth Rate and 3 P
 Compound growth rate is the growth rate from the initial period value to the ending period value, assuming the growth is compounding over time. Its calculation: 
 
 <Insert the formula>
+ 
+(Wikipedia)
   
 The new dataframe for Compound Growth Rate can be calculated through the followng way, using the 5 period Coumpound Growth as an example:
 
