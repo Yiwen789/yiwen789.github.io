@@ -113,6 +113,9 @@ def expand_single_column_five_moving_average(col):
 def expand_data_five_moving_average(df):
     return df.apply(expand_single_column_five_moving_average)
 ```
+<br/><br/>
+
+### 2. Writing to Excel
 
 Now we have all the variables we want to create in separate dataframes we can potentially write them into an Excel workbook either by putting each dataframe in a tab or combined all dataframes in a single sheet. 
 
