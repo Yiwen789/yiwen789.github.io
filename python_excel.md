@@ -55,12 +55,14 @@ metrics = df1.loc[:,'Close Price, $':]
 The idea is to define a helper function that takes in a single column and return a new calculation, then create a second function that takes in a dataframe and apply the helper function to each column of the entire dataframe.
 
 <insert the graph of dataframe apply>
+<img src="images/python_excel_graphs/dataframe apply.png?raw=true"/>
 
 
 To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
 
 <Insert a graph that explains .shift()>
-(Geeks for Geeks: Python | Pandas dataframe.shift())
+<img src="images/python_excel_graphs/shift .png?raw=true"/>
+
 
 
 
@@ -90,7 +92,7 @@ Same procedures can be applied to 3 Period/5 Period Compound Growth Rate and 3 P
 Compound growth rate is the growth rate from the initial period value to the ending period value, assuming the growth is compounding over time. Its calculation: 
 
 <Insert the formula>
- 
+<img src="images/python_excel_graphs/cagr.png?raw=true"/>
 (Wikipedia)
   
 The new dataframe for Compound Growth Rate can be calculated through the followng way, using the 5 period Coumpound Growth as an example:
