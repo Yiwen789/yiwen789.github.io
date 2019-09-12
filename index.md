@@ -16,13 +16,12 @@
 
 ---
 
-<!-- ### Category Name 2
+### Links
 
-[Project 1 Title](https://rpubs.com/Yiwen_Luo/labusage)
-[Project 2 Title](http://example.com/)
-[Project 3 Title](http://example.com/)
-[Project 4 Title](http://example.com/)
-[Project 5 Title](http://example.com/) -->
+[Visit My Tableau Profile](https://public.tableau.com/profile/yiwen.luo#!/)
+
+[Visit My Rpub Profile](https://rpubs.com/Yiwen_Luo/labusage)
+
 
 
 <p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
