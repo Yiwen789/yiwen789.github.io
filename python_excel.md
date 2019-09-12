@@ -34,8 +34,8 @@ The following is the head of the dataset, the columns are not completely include
 |2	|2014-09-12|MMM|3M Company|Industrials|Diversified Industrials|126.1793|2135400|3.945000e+09|...|
 |3	|2014-09-19|MMM|3M Company|Industrials|Diversified Industrials|128.5899|8106200|3.945000e+09|...|
 |4	|2014-09-26|MMM|3M Company|Industrials|Diversified Industrials|124.8468|3557700|3.945000e+09|...|
-<br/><br/>
 
+<br/><br/>
 Sometimes, numeric data in Excel might exist as strings instead of floats or integers. Let's first make sure the data types of all columns are appropriate. 
 
 ```
