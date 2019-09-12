@@ -39,14 +39,14 @@ The following is the head of the dataset, the columns are not completely include
 
 
 <br/><br/>
-```
+
 
 |   |   |   |   |   |
 |---|---|---|---|---|
 |   |   |   |   |   |
 |   |   |   |   |   |
 |   |   |   |   |   |
-```
+
 
 
 Sometimes, numeric data in Excel might exist as strings and floats. Let's first make sure the data types of all columns are appropriate. 
