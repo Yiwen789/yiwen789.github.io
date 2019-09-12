@@ -38,6 +38,15 @@ The following is the head of the dataset, the columns are not completely include
 0	|2014-08-29	|MMM	|3M |Company	|Industrials	|Diversified Industrials	|126.2318	|1537800	|3.945000e+09	|5225000000	|4711000000	|8499000000	|55000000	|32776000000	|12681000000	|7705000000	|16570000000	|16173000000	|658.0
 
 
+<br/><br/>
+|   |   |   |   |   |
+|---|---|---|---|---|
+|   |   |   |   |   |
+|   |   |   |   |   |
+|   |   |   |   |   |
+
+
+
 Sometimes, numeric data in Excel might exist as strings and floats. Let's first make sure the data types of all columns are appropriate. 
 
 ```
