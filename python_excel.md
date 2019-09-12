@@ -13,8 +13,6 @@ The remaining 59 columns are stock transaction data and company cash flow data s
 
 The goal of this project is to automate the dataset expansion process in Python and write to Excel through Python. 
 <br/><br/>
-
-
 ### 1. Data Preparation
 
 Importing data. Read in the data from the Excel worksheet as a dataframe. 
@@ -88,7 +86,7 @@ Compound growth rate is the growth rate from the initial period value to the end
 
 <img src="images/python_excel_graphs/cagr.png?raw=true"/>
 (https://www.gartner.com/it-glossary/cagr-compound-annual-growth-rate)
-
+<br/><br/>
 The new dataframe for Compound Growth Rate can be calculated through the followng way, using the 5 period Coumpound Growth as an example:
 
 ```
@@ -114,7 +112,6 @@ def expand_data_five_moving_average(df):
     return df.apply(expand_single_column_five_moving_average)
 ```
 <br/><br/>
-
 ### 2. Writing to Excel
 
 Now we have all the variables we want to create in separate dataframes we can potentially write them into an Excel workbook either by putting each dataframe in a tab or combined all dataframes in a single sheet. 
