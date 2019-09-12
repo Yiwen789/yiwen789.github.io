@@ -51,7 +51,7 @@ metrics = df1.loc[:,'Close Price, $':]
 
 The idea is to define a helper function that takes in a single column and return a new calculation, then create a second function that takes in a dataframe and apply the helper function to each column of the entire dataframe.
 
-<img src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/>
+<img align="center" src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/>
 
 
 To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
@@ -165,4 +165,4 @@ full_df_reordered.to_excel(datatoexcel, sheet_name= 'Expanded')
 datatoexcel.save()
 ```
 
-Now we have obtained two Excel workbooks in the working directory, one is the expanded data grouped by variables in different tabs, and the other is the full expanded data in just one tab, grouped by columns of the original data. 
+Now we should have obtained two Excel workbooks in the working directory, one is the expanded data grouped by variables in different tabs, and the other is the full expanded data in just one tab, grouped by columns of the original data. 
