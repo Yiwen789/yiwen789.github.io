@@ -114,7 +114,7 @@ def expand_data_five_moving_average(df):
 ```
 <br/><br/>
 ### 2. Writing to Excel
-
+<br/><br/>
 Now we have all the variables we want to create in separate dataframes we can potentially write them into an Excel workbook either by putting each dataframe in a tab or combined all dataframes in a single sheet. 
 
 Use the following method to write each dataframe into an Excel workbook named "level3_data_DJIA_python_by_variable.xlsx", sheet_name will become tab names. 
