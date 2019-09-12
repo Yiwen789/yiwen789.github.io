@@ -2,7 +2,6 @@
 **Project description:** 
 
 In this project we obtained the Dow Jones Industrial Average data from 2014 to 2019. The Dow Jones Industrial Average (DJIA), or simply the Dow (/ˈdaʊ/), is a stock market index that indicates the value of 30 large, publicly owned companies based in the United States, and how they have traded in the stock market during various periods. (Wikipedia)
-<br/><br/>
 
 Our goal is to expand the dataset by calculating new metrics for each exisiting column. The new metrics are: Percent Change, Absolute Change, Three Period Compound Growth, Five Period Compound Growth, Three Period Moving Average, Five Period Moving Average. 
 
