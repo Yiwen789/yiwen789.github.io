@@ -31,11 +31,13 @@ The following is the head of the dataset, the columns are not completely include
 
 
 
-|   |Date	|Symbol	|Name	|Sector	|Industry	|Close Price, $	|Volume	Inventory, $	|Long-Term Debt, $	|Net Receivables, $	|Property Plant Equipment, $	|Short-Term Debt, $	|Total Assets, $	|Total Current Assets, $	|Total Current Liabilities, $	|Total Liabilities, $	|Total Equity, $	|Shares Million
-|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------
-|0	|2014-08-29	|MMM	|3M |Company	|Industrials	|Diversified Industrials	|126.2318	|1537800	|3.945000e+09	|5225000000	|4711000000	|8499000000	|55000000	|32776000000	|12681000000	|7705000000	|16570000000	|16173000000	|658.0|
-
-
+|   |Date|Symbol|Name|Sector|Industry|Close Price, $|Volume|Inventory, $|...56 More Columns|
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|0	|2014-08-29|MMM|3M Company|Industrials|Diversified Industrials|126.2318|1537800|3.945000e+09|...|
+|1	|2014-09-05|MMM|3M Company|Industrials|Diversified Industrials|126.4072|1989100|3.945000e+09|...|
+|2	|2014-09-12|MMM|3M Company|Industrials|Diversified Industrials|126.1793|2135400|3.945000e+09|...|
+|3	|2014-09-19|MMM	3M Company|Industrials|Diversified Industrials|128.5899|8106200|3.945000e+09|...|
+|4	|2014-09-26|MMM	3M Company|Industrials|Diversified Industrials|124.8468|3557700|3.945000e+09|...|
 
 Sometimes, numeric data in Excel might exist as strings and floats. Let's first make sure the data types of all columns are appropriate. 
 
