@@ -1,15 +1,19 @@
+
+**Project description:** 
+
 In this project we obtained the Dow Jones Industrial Average data from 2014 to 2019. The Dow Jones Industrial Average (DJIA), or simply the Dow (/ˈdaʊ/), is a stock market index that indicates the value of 30 large, publicly owned companies based in the United States, and how they have traded in the stock market during various periods. (Wikipedia)
 
 Our goal is to expand the dataset by calculating new metrics for each exisiting column. The new metrics are: Percent Change, Absolute Change, Three Period Compound Growth, Five Period Compound Growth, Three Period Moving Average, Five Period Moving Average. 
 
-For example, for the column of Close Price, we would calculate the following metrics: Close Price Percent Change, Close Price Absolute Change, Close Price Three Period Compound Growth, Close Price Five Period Compound Growth, Close Price Three Period Moving Average, Close Price Five Period Moving Average. 
+For example, for the column of Close Price in the raw data, we would calculate the following metrics: Close Price Percent Change, Close Price Absolute Change, Close Price Three Period Compound Growth, Close Price Five Period Compound Growth, Close Price Three Period Moving Average, Close Price Five Period Moving Average. 
 
-The raw data contains 64 columns. Each row represent the stock transaction data recorded for a certain company at a specific date within 2014 to 2019. The Date, Symbol, Name, Sector, and Industry columns contains the basic information of each data record. 
+The raw data contains 64 columns. Each row represent the stock transaction data recorded for a certain company at a specific date from 2014 to 2019. The Date, Symbol, Name, Sector, and Industry columns contains the basic information of each data record. 
 
 The remaining 59 columns are stock transaction data and company cash flow data such as 'Close Price','Volume', 'Inventory', 'Long-Term Debt', 'Net Receivables','Property Plant Equipment', 'Short-Term Debt', 'Total Assets','Total Current Assets', 'Total Current Liabilities'...'4-Week Rolling Mean Minus Current Price','4-Week Standard Deviation', 'IndexDO', '3-Month IndexDO'. 
 
 The goal of this project is to automate the dataset expansion process in Python and write to Excel through Python. 
 
+### 1. Data Preparation
 
 Importing data. Read in the data from the Excel worksheet as a dataframe. 
 
@@ -21,7 +25,17 @@ print(xl.sheet_names)
 df = xl.parse('level3_data_DJIA.csv')
 ```
 
-The following is the head of the dataset, the columns are not completely included due to page limit. 
+The following is the head of the dataset, the columns are not completely included due to the page limit. 
+
+<insert a table? or screenshot of notebook?> 
+
+<br/><br/>
+<br/><br/>
+|   |Date	|Symbol	|Name	|Sector	|Industry	|Close Price, $	|Volume	Inventory, $	|Long-Term Debt, $	|Net Receivables, $	|Property Plant Equipment, $	|Short-Term Debt, $	|Total Assets, $	|Total Current Assets, $	|Total Current Liabilities, $	|Total Liabilities, $	|Total Equity, $	|Shares Million|
+|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|-------------|
+|0	|2014-08-29	|MMM	|3M |Company	|Industrials	|Diversified Industrials	|126.2318	|1537800	|3.945000e+09	|5225000000	|4711000000	|8499000000	|55000000	|32776000000	|12681000000	|7705000000	|16570000000	|16173000000	|658.0|
+
+
 
 Sometimes, numeric data in Excel might exist as strings and floats. Let's first make sure the data types of all columns are appropriate. 
 
