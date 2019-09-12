@@ -55,7 +55,7 @@ metrics = df1.loc[:,'Close Price, $':]
 The idea is to define a helper function that takes in a single column and return a new calculation, then create a second function that takes in a dataframe and apply the helper function to each column of the entire dataframe.
 
 <insert the graph of dataframe apply>
-<img src="images/python_excel_graphs/dataframe apply.png?raw=true"/>
+<img src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/>
 
 
 To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
