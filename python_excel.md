@@ -55,7 +55,7 @@ The idea is to define a helper function that takes in a single column and return
 
 To calculate a Percent Change, we used .shift() which allows us to shift all rows in a column to the positions of the next n rows. For example, dataframe.shift(2, axis = 0) 
 
-<img src="images/python_excel_graphs/shift .png?raw=true"/>
+<img align = 'center' src="images/python_excel_graphs/shift .png?raw=true"/>
 
 
 ```
