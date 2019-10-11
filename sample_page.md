@@ -7,7 +7,7 @@ Uniform Crime Reporting(UCR) compiles official data on crime in the United State
 <br/><br/>
 
 ### 1. Data Preparation
-The raw data is in the following Excel format. The data is currently not in an ideal form because: 1. Not all rows in the Excel sheet are data inputs. 2.The dataset is in a wide-format, whereas all measurements of one type of Offense Charged is in one row; however, we want to only see one measurement of an Offense Charged in one row in long-form. 
+The raw data, using the 1996-2005 UCR report as an example, is in the following Excel format. The data is currently not in an ideal form because: 1. Not all rows in the Excel sheet are data inputs. 2.The dataset is in a wide-format, whereas all measurements of one type of Offense Charged is in one row; however, we want to only see one measurement of an Offense Charged in one row in long-form. 
 <br/><br/>
 <img src="images/Excel Raw Data.png?raw=true"/>
 <br/><br/>
