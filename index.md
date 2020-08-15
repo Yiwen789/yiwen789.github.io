@@ -5,7 +5,7 @@
 <!--### Category Name 1 -->
 
 [Starcraft Players Skill Analysis](https://yluo.shinyapps.io/Starcraft_Analysis)
-<img src="images/starcraft_player_analysis/scatter_plot.png?raw = false">
+<img src="images/starcraft_player_analysis/scatter_plot.png?raw=true">
 
 
 [Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
