@@ -5,7 +5,7 @@
 <!--### Category Name 1 -->
 
 [Starcraft Players Skill Analysis with R Shiny](https://yluo.shinyapps.io/Starcraft_Analysis)
-<img src="images/starcraft_player_analysis/scatter_plot.png?raw=true">
+<img src="images/starcraft_player_analysis/scatter.png?raw=true">
 
 ---
 
