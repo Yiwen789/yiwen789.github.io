@@ -15,9 +15,9 @@
 
 ---
 
-[Analysis of Racial Equity in Jury Selection](https://dash-covid-labor-stats.herokuapp.com/)
+[Analysis of Racial Equity in Jury Selection](https://rpubs.com/Yiwen_Luo/649597)
 
-<img src="images/jury_selection/5_subplot_no_title.png?raw=true">
+<img src="images/jury_selection/5_subplots.png?raw=true">
 
 ---
 
