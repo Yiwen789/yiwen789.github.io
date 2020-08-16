@@ -16,30 +16,30 @@
 ---
 
 [Analysis of Racial Equity in Jury Selection](https://rpubs.com/Yiwen_Luo/649597)
-
 <img src="images/jury_selection/5_subplots_long.png?raw=true">
 
 ---
 
 [Predicting Pregnancies with Demographic Data and Physical Patterns](https://rpubs.com/Yiwen_Luo/649606)
-
 <img src="images/pregnancy_prediction/threshold.png?raw=true">
 
 ---
 
-[Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
-<!-- <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/> -->
-
----
 
 ### Data Cleaning
+<!--[Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage) -->
+<!-- <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/> -->
 
-[Data Cleaning with Tableau](sample_page.md)
-<img src="images/example viz 1.png?raw=true"/>
+[Data Cleaning with Tableau](https://blogs.carleton.edu/datasquad/wp-admin/post.php?post=539&action=edit)
+<!-- <img src="images/example viz 1.png?raw=true"/> -->
 
+[Working with Excel in Python](python_excel.md)
+<!-- <img src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/> -->
+
+[Writing with Excel in R]()
 ---
-[Writing to Excel with Python](python_excel.md)
-<img src="images/python_excel_graphs/dataframe apply.jpg?raw=true"/>
+
+### Statistics
 
 
 ---
