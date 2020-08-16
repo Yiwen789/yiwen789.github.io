@@ -15,6 +15,12 @@
 
 ---
 
+[Analysis of Racial Equity in Jury Selection](https://dash-covid-labor-stats.herokuapp.com/)
+
+<img src="images/jury_selection/5_subplot_no_title.png?raw=true">
+
+---
+
 [Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
 <!-- <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/> -->
 
