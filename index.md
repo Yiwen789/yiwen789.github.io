@@ -1,6 +1,6 @@
 ## Portfolio
 
-### Data Visualization
+### Data Science
 
 <!--### Category Name 1 -->
 
