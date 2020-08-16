@@ -10,7 +10,7 @@
 ---
 
 [COVID Impact on National Employment Dashboard with Python Dash](https://dash-covid-labor-stats.herokuapp.com/)
-<img src="images/covid_employment/line_plot.png?raw=true">
+<img src="images/covid_employment/line_chart.png?raw=true">
 ---
 
 [Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
