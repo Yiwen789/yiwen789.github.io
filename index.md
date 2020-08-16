@@ -21,6 +21,12 @@
 
 ---
 
+[Predicting Pregnancies with Demographic Data and Physical Patterns](https://rpubs.com/Yiwen_Luo/649606)
+
+<img src="images/pregnancy_prediction/threshold.png?raw=true">
+
+---
+
 [Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage)
 <!-- <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/> -->
 
