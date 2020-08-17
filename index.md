@@ -30,7 +30,7 @@
 <!--[Carleton College 2018-2019 Academic Year Lab Usage Data Cleaning and Visualization](https://rpubs.com/Yiwen_Luo/labusage) -->
 <!-- <img src="images/CMC201 2018-19 Lab Usage by Week0724.jpg?raw=true"/> -->
 
-[Data Cleaning with Tableau](https://blogs.carleton.edu/datasquad/wp-admin/post.php?post=539&action=edit)
+[Cleaning Complex Datasets with Tableau](https://blogs.carleton.edu/datasquad/wp-admin/post.php?post=539&action=edit)
 <!-- <img src="images/example viz 1.png?raw=true"/> -->
 
 [Working with Excel in Python](python_excel.md)
