@@ -41,7 +41,7 @@
 ---
 
 ### Statistics
-
+[Pipeline Accidents Remedial Cost Analysis with Liner Mixed-Effects Model](https://rpubs.com/Yiwen_Luo/649714)
 
 ---
 
