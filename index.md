@@ -50,8 +50,3 @@
 [Visit My Tableau Profile](https://public.tableau.com/profile/yiwen.luo#!/)
 
 [Visit My Rpub Profile](https://rpubs.com/Yiwen_Luo/labusage)
-
-
-
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
