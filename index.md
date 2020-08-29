@@ -9,7 +9,7 @@
 
 ---
 
-[COVID Impact on National Employment Dashboard with Python Dash](https://dash-covid-labor-stats.herokuapp.com/)
+[COVID Impact on National Employment Dashboard with Python Dash](https://labor-stats-dashboard.herokuapp.com/)
 
 <img src="images/covid_employment/line_plot.png?raw=true">
 
