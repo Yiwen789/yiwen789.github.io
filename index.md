@@ -38,6 +38,9 @@
 
 [Working with Excel in R]()
 
+[Use Multi-index Pandas Dataframes to Reorganize Data Indexed by Multiple Keys](file:///C:/Users/Yiwen%20L/Downloads/notes.html)
+
+
 ---
 
 ### Statistics
